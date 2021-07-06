@@ -1,3 +1,13 @@
+.menu-bar{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: blue;
+}
+.menu-bar h3{
+display: inline;
+}
 body{
     font-family: 'Lato', sans-serif;
     margin: 0;
@@ -9,9 +19,7 @@ body{
     width: 50%;
     padding-left: 7%;
 }
-.half-div img{
-    /* height: 70%; */
-}
+
 h1{
     font-size: 50px;
     font-weight: 800;
@@ -79,4 +87,48 @@ display: flex;
 .recipies-part img{
     width: 100%;
    
+}
+.follower{
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100px;
+    
+}
+.follower-class{
+    display: flex;
+    border-radius: 10px;
+
+    /* text-align: center; */
+
+    background-color: white;
+    margin: 25px;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 15px;
+
+    
+
+}
+.follow{
+    padding: 5%;
+    
+    text-align: center;
+    width: 33%;
+   
+}
+/* .footer{
+height: 100px;
+background-color:black;
+}
+.footer p h4{
+text-align: center;
+margin: auto;
+} */
+.last-part{
+    height: 200px;
+    background-color: black;
+    color:white;
+    margin: 0;
+    padding: 40px 60px;
+    text-align: center;
+    
 }
