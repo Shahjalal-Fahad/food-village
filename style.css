@@ -1,3 +1,82 @@
 body{
     font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+.Menu{
+    display: flex;
+}
+.half-div{
+    width: 50%;
+    padding-left: 7%;
+}
+.half-div img{
+    /* height: 70%; */
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+h2{
+    font-size: 40px;
+    color: grey;
+}
+a{
+    text-decoration: none;
+}
+p{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.button{
+width: 200px;
+background-color: blue;
+background-image: linear-gradient(blue,cyan);
+padding: 12px 50px;
+border-radius: 50px;
+font-weight: bold;
+color: white;
+}
+.color-change{
+color: goldenrod;
+}
+.about{
+    display: flex;
+    background-image: url(img/bg1.png);
+    background-repeat: no-repeat;
+    
+}
+.about .half-div{
+    width: 50%;
+}
+.about-right{
+    margin-right: 20px;
+}
+.about image{
+    width: 100%;
+}
+.recipies{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.recipies_text{
+    text-align: center;
+}
+.recipies-div{
+display: flex;
+}
+.recipies-part {
+    width: 33.33%;
+    padding: 1%;
+    text-align: left;
+    background-color: white;
+    margin: 25px;
+    box-shadow: 5px 5px 20px gray;
+    border: 10px white;
+    border-radius: 15px;
+    
+   
+}
+.recipies-part img{
+    width: 100%;
+   
 }
